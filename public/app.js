@@ -96,22 +96,21 @@ function toast(key) {
 $('#copy-email').addEventListener('click', async () => {
   try { await navigator.clipboard.writeText('contact@harang.xyz'); toast('copySuccess'); } catch { toast('copyFailed'); }
 });
-$('#contact-form').addEventListener('submit', event => {
-  event.preventDefault(); const fields = new FormData(event.currentTarget);
-  const body = t('emailName') + ': ' + fields.get('name') + '\n' +
-    t('emailCompany') + ': ' + (fields.get('company') || t('emailEmpty')) + '\n' +
-    t('emailReply') + ': ' + fields.get('email') + '\n\n' + t('emailMessage') + ':\n' + fields.get('message');
-  const subject = t('emailSubject') + ' ' + (fields.get('company') || fields.get('name'));
-  const emailLink = document.createElement('a');
-  emailLink.href = 'mailto:contact@harang.xyz?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body); emailLink.click();
-  $('#form-status').hidden = false; $('#form-status').textContent = t('formStatus');
-});
+function updateEmailLinks() {
+  const compose = new URL('https://mail.google.com/mail/');
+  compose.searchParams.set('view', 'cm');
+  compose.searchParams.set('fs', '1');
+  compose.searchParams.set('to', 'contact@harang.xyz');
+  compose.searchParams.set('su', t('emailSubject'));
+  $('#email-gmail').href = compose.href;
+  $('#email-app').href = 'mailto:contact@harang.xyz?subject=' + encodeURIComponent(t('emailSubject'));
+}
 window.addEventListener('harang:languagechange', () => {
   updateMenuLabel(); renderDemo(); if (dialog.open) renderDialog();
   if (toastKey) $('#toast').textContent = t(toastKey);
-  if (!$('#form-status').hidden) $('#form-status').textContent = t('formStatus');
+  updateEmailLinks();
 });
-updateMenuLabel(); renderDemo();
+updateMenuLabel(); renderDemo(); updateEmailLinks();
 
 
 

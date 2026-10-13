@@ -89,15 +89,18 @@ window.HarangLocales = {
       "contact.title": "다음 변화는,<br>우리의 대화에서.",
       "contact.intro": "매주 반복되는 업무 하나를 알려주세요.<br>어디서부터 시작할 수 있을지 함께 찾겠습니다.",
       "contact.copy": "이메일 주소 복사 <span aria-hidden=\"true\">▣</span>",
-      "contact.name": "이름",
-      "contact.company": "회사 / 팀",
-      "contact.email": "이메일",
-      "contact.message": "어떤 업무를 바꾸고 싶으신가요?",
-      "contact.notice": "작성 내용은 서버에 저장되지 않으며, 기본 이메일 앱으로 전달됩니다. 이메일 앱에서 최종 발송해 주세요.",
-      "contact.submit": "이메일로 상담 문의 <span aria-hidden=\"true\">↗</span>",
       "footer.privacy": "정보 처리 안내",
       "footer.top": "맨 위로 <span aria-hidden=\"true\">↑</span>",
-      "dialog.contact": "프로젝트 문의 <span aria-hidden=\"true\">↗</span>"
+      "dialog.contact": "프로젝트 문의 <span aria-hidden=\"true\">↗</span>",
+      "contact.card.title": "메일로 편하게 이야기해 주세요.",
+      "contact.card.intro": "사용하시는 메일에서 문의 내용을 작성해 보내주세요. 작은 업무 고민부터 프로젝트 제안까지 환영합니다.",
+      "contact.gmail": "Gmail에서 문의 작성 <span aria-hidden=\"true\">↗</span>",
+      "contact.app": "기본 메일 앱으로 작성 <span aria-hidden=\"true\">↗</span>",
+      "contact.other": "네이버·다음·Outlook 등 다른 메일을 쓰신다면, 이메일 주소를 복사해 받는 사람에 붙여 넣어 주세요.",
+      "contact.guide.title": "이런 내용을 알려주시면 도움이 됩니다.",
+      "contact.guide.team": "회사나 팀에 대한 간단한 소개",
+      "contact.guide.workflow": "반복되는 업무와 현재 사용하는 도구",
+      "contact.guide.goal": "원하는 변화나 고려 중인 일정"
     },
     "ui": {
       "menuOpen": "메뉴 열기",
@@ -132,17 +135,7 @@ window.HarangLocales = {
       "completeHint": "흐름이 완료되었습니다. 다른 시나리오도 체험해 보세요.",
       "copySuccess": "이메일 주소를 복사했습니다.",
       "copyFailed": "contact@harang.xyz — 주소를 직접 복사해 주세요.",
-      "formStatus": "이메일 앱에서 내용을 확인하고 발송해 주세요. 앱이 열리지 않으면 contact@harang.xyz로 직접 문의해 주세요.",
-      "emailName": "이름",
-      "emailCompany": "회사 / 팀",
-      "emailReply": "회신 이메일",
-      "emailMessage": "문의 내용",
-      "emailEmpty": "미입력",
       "emailSubject": "[HARANG 프로젝트 문의]",
-      "placeholderName": "성함을 알려주세요",
-      "placeholderCompany": "회사 또는 팀 이름",
-      "placeholderEmail": "답변받으실 이메일 주소",
-      "placeholderMessage": "반복되는 업무나 고민을 편하게 알려주세요.",
       "pageTitle": "HARANG | 반복 업무는 줄이고, 중요한 판단은 사람에게",
       "pageDescription": "HARANG은 반복적인 문서·운영 업무를 사람이 통제할 수 있는 AI 워크플로로 전환합니다. 업무 진단부터 자동화 파일럿, 안전성 검증까지.",
       "ogTitle": "HARANG — 안전하게 실행되는 AI 전환",
@@ -215,7 +208,7 @@ window.HarangLocales = {
     "privacy": {
       "label": "INFORMATION",
       "title": "정보 처리 안내",
-      "body": "<p>이 홈페이지의 데모는 미리 준비된 가상 자료를 사용하며, 실제 AI 서비스를 호출하거나 외부 시스템에 데이터를 보내지 않습니다.</p><p>문의 양식에 작성한 내용은 홈페이지 서버에 저장되지 않습니다. 문의 버튼을 누르면 사용 중인 이메일 앱으로 이름, 회사, 회신 주소와 문의 내용을 전달하며, 실제 발송은 이메일 앱에서 직접 진행합니다.</p><p>다음 방문에도 같은 언어로 보실 수 있도록 선택한 언어만 브라우저의 로컬 저장소에 보관합니다. KOR / ENG로 변경하거나 브라우저에서 이 사이트의 데이터를 지우면 삭제할 수 있습니다.</p><p>이 홈페이지는 문의 내용이나 데모 입력을 저장하는 데이터베이스, 방문 분석 도구 또는 추적용 쿠키를 사용하지 않습니다. 웹 호스팅 서비스에서는 서비스 운영을 위해 접속 기록을 처리할 수 있으며, 웹폰트를 불러올 때는 폰트 제공 서버에 네트워크 요청이 발생합니다.</p><p>문의: <a href=\"mailto:contact@harang.xyz\">contact@harang.xyz</a></p>"
+      "body": "<p>이 홈페이지의 데모는 미리 준비된 가상 자료를 사용하며, 실제 AI 서비스를 호출하거나 외부 시스템에 데이터를 보내지 않습니다.</p><p>문의는 Gmail이나 사용 중인 메일 앱에서 직접 작성해 contact@harang.xyz로 보내실 수 있습니다. 이 홈페이지에는 문의 입력 양식이 없으며, 문의 내용을 저장하지 않습니다. 메일 작성과 발송에는 선택하신 메일 서비스의 정보 처리 방식이 적용됩니다.</p><p>다음 방문에도 같은 언어로 보실 수 있도록 선택한 언어만 브라우저의 로컬 저장소에 보관합니다. KOR / ENG로 변경하거나 브라우저에서 이 사이트의 데이터를 지우면 삭제할 수 있습니다.</p><p>이 홈페이지는 문의 내용이나 데모 입력을 저장하는 데이터베이스, 방문 분석 도구 또는 추적용 쿠키를 사용하지 않습니다. 웹 호스팅 서비스에서는 서비스 운영을 위해 접속 기록을 처리할 수 있으며, 웹폰트를 불러올 때는 폰트 제공 서버에 네트워크 요청이 발생합니다.</p><p>문의: <a href=\"mailto:contact@harang.xyz\">contact@harang.xyz</a></p>"
     }
   },
   "en": {
@@ -286,7 +279,7 @@ window.HarangLocales = {
     "privacy": {
       "label": "INFORMATION",
       "title": "Information & privacy",
-      "body": "<p>This demo uses prepared sample data. It makes no live AI calls and sends no data to external business systems.</p><p>The contact form does not store messages on this website. It opens your email app with your name, company, reply address, and message. You review and send the email yourself.</p><p>We save only your language preference in your browser’s local storage so your next visit uses the same language. You can change it using KOR / ENG or remove it by clearing this website’s browser data.</p><p>This website does not use a database to store inquiries or demo input, analytics tools, or tracking cookies. Our hosting provider may process access logs to operate the service, and loading web fonts makes a network request to the font provider.</p><p>Contact: <a href=\"mailto:contact@harang.xyz\">contact@harang.xyz</a></p>"
+      "body": "<p>This demo uses prepared sample data. It makes no live AI calls and sends no data to external business systems.</p><p>You can contact us directly at contact@harang.xyz using Gmail or your preferred email app. This website has no inquiry form and does not store your message. Your chosen email service handles composition and delivery under its own information practices.</p><p>We save only your language preference in your browser’s local storage so your next visit uses the same language. You can change it using KOR / ENG or remove it by clearing this website’s browser data.</p><p>This website does not use a database to store inquiries or demo input, analytics tools, or tracking cookies. Our hosting provider may process access logs to operate the service, and loading web fonts makes a network request to the font provider.</p><p>Contact: <a href=\"mailto:contact@harang.xyz\">contact@harang.xyz</a></p>"
     },
     "ui": {
       "menuOpen": "Open menu",
@@ -321,17 +314,7 @@ window.HarangLocales = {
       "completeHint": "Workflow complete. Try another scenario.",
       "copySuccess": "Email address copied.",
       "copyFailed": "contact@harang.xyz — please copy the address manually.",
-      "formStatus": "Review and send the message in your email app. If it doesn’t open, email contact@harang.xyz directly.",
-      "emailName": "Name",
-      "emailCompany": "Company / team",
-      "emailReply": "Reply email",
-      "emailMessage": "Message",
-      "emailEmpty": "Not provided",
       "emailSubject": "[HARANG project inquiry]",
-      "placeholderName": "Your name",
-      "placeholderCompany": "Your company or team",
-      "placeholderEmail": "Where we can reach you",
-      "placeholderMessage": "Tell us about a repetitive task or challenge.",
       "pageTitle": "HARANG | Practical AI Transformation, Built on Trust",
       "pageDescription": "HARANG helps businesses turn repetitive document and operational tasks into practical AI workflows with human oversight. Assessment, pilot implementation, and safety evaluation.",
       "ogTitle": "HARANG — Practical AI Transformation, Built on Trust",
@@ -426,15 +409,18 @@ window.HarangLocales = {
       "contact.title": "Your next chapter<br>starts with a conversation.",
       "contact.intro": "Tell us about one task you repeat every week.<br>Let’s find a practical place to start.",
       "contact.copy": "Copy email address <span aria-hidden=\"true\">▣</span>",
-      "contact.name": "Name",
-      "contact.company": "Company / team",
-      "contact.email": "Email",
-      "contact.message": "What would you like to change?",
-      "contact.notice": "Your message is not stored on this website. We’ll open your email app with these details; please review and send it there.",
-      "contact.submit": "Start a conversation by email <span aria-hidden=\"true\">↗</span>",
       "footer.privacy": "Information & privacy",
       "footer.top": "Back to top <span aria-hidden=\"true\">↑</span>",
-      "dialog.contact": "Let’s talk <span aria-hidden=\"true\">↗</span>"
+      "dialog.contact": "Let’s talk <span aria-hidden=\"true\">↗</span>",
+      "contact.card.title": "Let’s talk by email.",
+      "contact.card.intro": "Write to us using the email service you prefer. From a recurring task to a project idea, we’d love to hear what you have in mind.",
+      "contact.gmail": "Compose in Gmail <span aria-hidden=\"true\">↗</span>",
+      "contact.app": "Open your email app <span aria-hidden=\"true\">↗</span>",
+      "contact.other": "Using Outlook, Naver, or another email service? Copy our email address and paste it into the recipient field.",
+      "contact.guide.title": "A few details that help us get started.",
+      "contact.guide.team": "A short introduction to your company or team",
+      "contact.guide.workflow": "The repetitive task and tools you use today",
+      "contact.guide.goal": "The change you want or a timeline you’re considering"
     }
   }
 };
