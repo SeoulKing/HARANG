@@ -1,0 +1,13 @@
+import {readFile,access} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import {spawnSync} from 'node:child_process';
+const html=await readFile('public/index.html','utf8');
+const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
+if(new Set(ids).size!==ids.length)throw new Error('Duplicate HTML IDs');
+for(const match of html.matchAll(/href="#([^"]+)"/g))if(!ids.includes(match[1]))throw new Error(`Missing anchor: ${match[1]}`);
+for(const match of html.matchAll(/(?:src|href)="\.\/([^"]+)"/g))await access(resolve('public',match[1]));
+for(const match of html.matchAll(/aria-controls="([^"]+)"/g))if(!ids.includes(match[1]))throw new Error(`Missing aria target: ${match[1]}`);
+if(!html.includes('contact@harang.xyz'))throw new Error('Contact address missing');
+const checked=spawnSync(process.execPath,['--check','public/app.js'],{encoding:'utf8'});
+if(checked.status!==0)throw new Error(checked.stderr);
+console.log('PASS: JavaScript syntax, local assets, unique IDs, anchor links, ARIA references, and contact address.');

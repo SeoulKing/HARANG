@@ -1,0 +1,8 @@
+{
+  "name": "harang-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HARANG — Practical AI transformation, built on trust",
+  "scripts": { "dev": "node scripts/serve.mjs", "check": "node scripts/check.mjs" },
+  "engines": { "node": ">=20" }
+}

@@ -1,0 +1,7 @@
+.openai/
+node_modules/
+artifacts/
+*.tar.gz
+.DS_Store
+.env*
+
