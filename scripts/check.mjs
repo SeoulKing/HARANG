@@ -14,7 +14,7 @@ for(const file of ['public/app.js','public/i18n.js']){
   if(checked.status!==0)throw new Error(checked.stderr);
 }
 const localeSource=await readFile('public/i18n.js','utf8');
-const locales=JSON.parse(localeSource.split('window.HarangLocales = ')[1].split(';\n')[0]);
+const locales=JSON.parse(localeSource.split('window.HarangLocales = ')[1].split(/;\r?\n/)[0]);
 for(const section of ['static','ui','services','scenarios']){
   assert.deepEqual(Object.keys(locales.ko[section]).sort(),Object.keys(locales.en[section]).sort(),'Locale keys differ in '+section);
 }
@@ -27,4 +27,3 @@ for(const match of html.matchAll(/data-i18n-(?:placeholder|aria-label)="([^"]+)"
 assert(html.indexOf('src="./i18n.js"')<html.indexOf('src="./app.js"'),'Language script must load first');
 assert(html.includes('data-language="ko"')&&html.includes('data-language="en"'),'Language buttons missing');
 console.log('PASS: JavaScript syntax, assets, links, ARIA references, contact address, bilingual catalog completeness, and language script order.');
-
