@@ -8,7 +8,7 @@ window.HarangLocales = {
       "nav.about": "회사 소개",
       "nav.contact": "프로젝트 문의 <span aria-hidden=\"true\">↗</span>",
       "hero.title": "반복 업무는 줄이고,<br>중요한 판단은<br><span>사람에게.</span>",
-      "hero.intro": "가능성에 머물던 AI를, 일하는 방식으로.<br>HARANG은 비즈니스에 맞는 AI 워크플로를 설계하고<br class=\"desktop-break\"> 안전하게 실행되는 변화를 만듭니다.",
+      "hero.intro": "업무의 가능성을 찾고, 필요한 솔루션을 직접 만듭니다.<br>HARANG은 AI 컨설팅부터 설계·개발·구축까지 함께하며<br class=\"desktop-break\"> 사람이 통제할 수 있는 업무의 변화를 만듭니다.",
       "hero.contact": "우리 업무의 가능성 찾기 <span aria-hidden=\"true\">↗</span>",
       "hero.workflow": "워크플로 살펴보기 <span aria-hidden=\"true\">↓</span>",
       "hero.scroll": "변화의 시작을 만나보세요 <span aria-hidden=\"true\">↓</span>",
@@ -16,20 +16,20 @@ window.HarangLocales = {
       "principles.workflows": "연결되는 워크플로",
       "principles.people": "사람이 통제하는 실행",
       "principles.trust": "신뢰할 수 있는 변화",
-      "services.title": "AI 도입의 시작부터,<br>실제 업무의 변화까지.",
-      "services.intro": "기술보다 업무를 먼저 이해합니다.<br>작은 문제 하나를 제대로 해결하고,<br>검증된 흐름을 다음 업무로 연결합니다.",
-      "services.discover.title": "업무 진단 &amp; AX 전략",
-      "services.discover.body": "반복 업무와 병목을 살펴보고, AI가 도울 수 있는 일과 사람이 맡아야 할 일을 구분합니다.",
+      "services.title": "전략을 함께 세우고,<br>필요한 솔루션을 직접 만듭니다.",
+      "services.intro": "업무 진단과 도입 전략부터<br>맞춤형 솔루션 개발·시스템 연동,<br>안전성 검증과 운영 개선까지 함께합니다.",
+      "services.discover.title": "AX 컨설팅 & 업무 진단",
+      "services.discover.body": "업무와 요구사항을 분석해 AI 도입 전략을 세우고, 구현할 기능과 사람의 판단이 필요한 범위를 정합니다.",
       "services.discover.tag1": "업무 분석",
       "services.discover.tag2": "도입 우선순위",
-      "services.build.title": "AI 워크플로 설계 &amp; 구축",
-      "services.build.body": "문서 이해부터 초안 작성, 업무 시스템 연결까지. 하나의 업무에서 작동하는 파일럿을 만듭니다.",
-      "services.build.tag1": "문서 자동화",
-      "services.build.tag2": "AI 에이전트",
-      "services.validate.title": "AI 안전성 검증 &amp; 개선",
-      "services.validate.body": "잘못된 실행과 권한 초과, 정보 노출 가능성을 점검하고 승인과 기록이 남는 흐름을 설계합니다.",
+      "services.build.title": "AI 솔루션 개발 & 구축",
+      "services.build.body": "AI 에이전트, 문서 자동화, 내부 업무 도구와 시스템 연동을 직접 개발합니다. 파일럿 검증부터 실제 업무 적용까지 함께합니다.",
+      "services.build.tag1": "맞춤형 개발",
+      "services.build.tag2": "시스템 연동",
+      "services.validate.title": "AI 안전성 검증 & 운영",
+      "services.validate.body": "권한과 실행 안전성을 검증하고, 구축 후 오류 점검과 개선을 지원합니다. 중요한 실행에는 승인과 기록을 남깁니다.",
       "services.validate.tag1": "권한 통제",
-      "services.validate.tag2": "실행 검증",
+      "services.validate.tag2": "운영 개선",
       "services.details": "서비스 자세히 보기 <span aria-hidden=\"true\">↗</span>",
       "workflow.title": "하나의 요청이,<br>하나의 흐름이 되는 순간.",
       "workflow.intro": "반복적인 준비는 AI에게 맡기고,<br>검토와 결정은 담당자에게.<br>HARANG이 생각하는 자동화입니다.",
@@ -65,23 +65,23 @@ window.HarangLocales = {
       "approach.listen.body": "담당자의 업무 흐름과 반복되는 문제를 함께 살펴봅니다.",
       "approach.listen.note": "업무 인터뷰 · 현황 분석",
       "approach.define.title": "범위를 정합니다.",
-      "approach.define.body": "자동화할 업무와 산출물, 데이터 범위, 검수 기준을 명확히 합니다.",
+      "approach.define.body": "개발할 기능, 산출물, 데이터·연동 범위와 검수 기준을 함께 정합니다.",
       "approach.define.note": "우선순위 · 실행 계획",
       "approach.build.title": "만들고, 검증합니다.",
-      "approach.build.body": "작동하는 파일럿을 만들고 실제 사용 흐름과 안전성을 점검합니다.",
-      "approach.build.note": "프로토타입 · 테스트",
+      "approach.build.body": "파일럿으로 가능성을 확인하고, 합의한 기능을 직접 개발·구축해 사용 흐름과 안전성을 점검합니다.",
+      "approach.build.note": "개발·구축 · 테스트",
       "approach.improve.title": "배우고, 개선합니다.",
-      "approach.improve.body": "업무 시간과 수정 횟수, 오류를 살펴보고 다음 개선을 결정합니다.",
-      "approach.improve.note": "효과 측정 · 운영 검토",
+      "approach.improve.body": "도입 후 사용 현황과 오류를 살펴보고, 필요한 운영 지원과 기능 개선을 협의합니다.",
+      "approach.improve.note": "운영 지원 · 지속 개선",
       "about.title": "기술과 일 사이,<br>사람을 생각합니다.",
-      "about.lead": "HARANG은 반복적인 문서·운영 업무를<br>신뢰할 수 있는 AI 워크플로로 전환하는<br>AX 컨설팅 브랜드입니다.",
-      "about.body": "컴퓨터공학과 정보보호 연구 경험을 바탕으로, AI 에이전트가 사용자의 의도에 맞게 도구를 실행하는 방법에 집중합니다. 기술을 도입하는 데서 멈추지 않고, 사람이 이해하고 통제할 수 있는 업무 흐름을 지향합니다.",
+      "about.lead": "HARANG은 기업의 AI 활용 전략을 함께 세우고,<br>업무 자동화와 맞춤형 솔루션을 직접 구현하는<br>AX 컨설팅·개발 파트너입니다.",
+      "about.body": "컴퓨터공학과 정보보호 연구 경험을 바탕으로, 업무 진단부터 AI 워크플로와 업무 도구의 설계·개발·구축까지 함께합니다. 사용자의 의도에 맞는 도구 실행, 명확한 권한, 사람의 승인을 설계에 반영하고 필요한 운영 개선으로 연결합니다.",
       "about.stage": "<span class=\"status-dot\"></span> 초기 사업 준비 · 워크플로 프로토타입 기획 단계",
       "faq.title": "시작하기 전,<br>궁금하신 점.",
       "faq.q1": "어떤 업무부터 시작하면 좋을까요?<span aria-hidden=\"true\">+</span>",
       "faq.a1": "요청서 정리, 제안서 초안 작성, 회의록 정리처럼 입력과 결과가 비교적 명확한 반복 업무부터 시작할 수 있습니다. 업무 빈도와 소요 시간, 자료의 민감도를 함께 살펴보고 적합한 업무를 선정합니다.",
       "faq.q2": "이미 사용하는 업무 도구가 있어도 가능한가요?<span aria-hidden=\"true\">+</span>",
-      "faq.a2": "현재 도구와 업무 흐름을 먼저 확인합니다. 연동 가능 여부와 접근 권한, API 제공 범위에 따라 설계가 달라지므로 초기 진단에서 가능한 연결과 필요한 변경을 구체적으로 안내합니다.",
+      "faq.a2": "현재 도구와 업무 흐름을 먼저 확인하고, 제공되는 API와 접근 권한에 맞춰 연동을 설계·개발합니다. 초기 진단에서 가능한 연결과 필요한 변경을 확인한 뒤 구현 범위를 합의합니다.",
       "faq.q3": "회사 데이터를 AI에 모두 전달해야 하나요?<span aria-hidden=\"true\">+</span>",
       "faq.a3": "필요한 자료와 접근 범위를 먼저 정하고, 가상 데이터나 사용이 허가된 자료로 검증을 시작합니다. 실제 구축 전에는 외부 AI 전송 범위와 보관 조건을 협의합니다.",
       "faq.q4": "비용과 기간은 어떻게 정해지나요?<span aria-hidden=\"true\">+</span>",
@@ -100,7 +100,9 @@ window.HarangLocales = {
       "contact.guide.title": "이런 내용을 알려주시면 도움이 됩니다.",
       "contact.guide.team": "회사나 팀에 대한 간단한 소개",
       "contact.guide.workflow": "반복되는 업무와 현재 사용하는 도구",
-      "contact.guide.goal": "원하는 변화나 고려 중인 일정"
+      "contact.guide.goal": "원하는 변화나 고려 중인 일정",
+      "faq.q5": "개발·구축도 맡길 수 있나요?<span aria-hidden=\"true\">+</span>",
+      "faq.a5": "네. AI 활용 전략과 업무 진단뿐 아니라 AI 에이전트, 문서 자동화, 내부 업무 도구, 기존 시스템 연동을 직접 설계·개발·구축하는 범위까지 함께합니다. 파일럿으로 가능성을 검증한 뒤 실제 업무에 적용할 기능과 배포·운영 지원 범위를 협의합니다."
     },
     "ui": {
       "menuOpen": "메뉴 열기",
@@ -137,25 +139,25 @@ window.HarangLocales = {
       "copyFailed": "contact@harang.xyz — 주소를 직접 복사해 주세요.",
       "emailSubject": "[HARANG 프로젝트 문의]",
       "pageTitle": "HARANG | 반복 업무는 줄이고, 중요한 판단은 사람에게",
-      "pageDescription": "HARANG은 반복적인 문서·운영 업무를 사람이 통제할 수 있는 AI 워크플로로 전환합니다. 업무 진단부터 자동화 파일럿, 안전성 검증까지.",
+      "pageDescription": "HARANG은 AI 컨설팅부터 맞춤형 솔루션의 설계·개발·구축, 안전성 검증과 운영 개선까지 함께하는 AX 파트너입니다.",
       "ogTitle": "HARANG — 안전하게 실행되는 AI 전환",
-      "ogDescription": "반복 업무는 줄이고, 중요한 판단은 사람에게. 업무 진단부터 AI 자동화와 안전성 검증까지 함께합니다."
+      "ogDescription": "반복 업무는 줄이고, 중요한 판단은 사람에게. AX 컨설팅부터 AI 솔루션 직접 개발·구축, 안전성 검증과 운영 개선까지."
     },
     "services": {
       "discover": {
         "label": "01 / DISCOVER",
-        "title": "업무 진단 & AX 전략",
-        "body": "<p>기술을 고르기 전에, 실제로 바꿀 가치가 있는 업무를 찾습니다.</p><ul><li>반복 업무와 병목을 확인하는 업무 인터뷰</li><li>입력 자료, 산출물, 사용 도구와 접근 권한 분석</li><li>자동화 후보의 우선순위와 위험도 정리</li><li>사람이 맡을 판단과 AI에 맡길 작업 구분</li></ul><p>산출물: 업무 현황과 도입 우선순위, 파일럿 제안 범위.</p>"
+        "title": "AX 컨설팅 & 업무 진단",
+        "body": "<p>업무를 이해하고 실제 구현으로 이어지는 AI 도입 전략을 세웁니다.</p><ul><li>반복 업무와 병목을 확인하는 인터뷰</li><li>데이터, 기존 도구, 접근 권한과 요구사항 분석</li><li>자동화 우선순위와 구현 기능·위험도 정리</li><li>사람이 맡을 판단과 AI에 맡길 작업 구분</li></ul><p>산출물: 업무 진단, AI 활용 전략, 개발·구축 범위와 실행 계획.</p>"
       },
       "build": {
         "label": "02 / BUILD",
-        "title": "AI 워크플로 설계 & 구축",
-        "body": "<p>하나의 업무를 대상으로 작동하는 파일럿을 설계합니다.</p><ul><li>요청서·이메일·문서의 요구사항 구조화</li><li>정해진 형식에 맞춘 문서 초안 작성</li><li>기존 도구의 연동 가능 여부와 실행 권한 검토</li><li>담당자의 검토와 승인이 포함된 프로토타입</li></ul><p>산출물: 합의한 범위의 프로토타입, 테스트 결과와 사용 안내. 실제 연동 범위는 진단 후 확정합니다.</p>"
+        "title": "AI 솔루션 개발 & 구축",
+        "body": "<p>파일럿으로 가능성을 검증하고, 합의한 범위에서 실제 업무에 쓰는 솔루션을 직접 개발·구축합니다.</p><ul><li>AI 에이전트와 업무 자동화 워크플로 개발</li><li>문서 이해·요구사항 정리·초안 작성 기능 구현</li><li>맞춤형 내부 업무 도구와 기존 시스템·API 연동</li><li>담당자의 검토·승인 흐름과 실행 기록 구현</li><li>테스트, 배포 설정과 사용·운영 안내</li></ul><p>산출물: 합의한 기능을 갖춘 솔루션, 테스트 결과와 사용·운영 안내. 개발·연동·배포 범위는 진단 후 확정합니다.</p>"
       },
       "validate": {
         "label": "03 / VALIDATE",
-        "title": "AI 안전성 검증 & 개선",
-        "body": "<p>AI가 의도한 작업을 정해진 권한 안에서 수행하는지 확인합니다.</p><ul><li>누락, 근거 없는 내용과 모순 점검</li><li>도구 호출과 권한 초과 가능성 확인</li><li>민감한 자료의 접근·전송 범위 검토</li><li>승인 없는 실행 차단과 처리 기록 설계</li></ul><p>산출물: 테스트 결과, 발견된 위험과 개선 제안. 검증 대상과 기준은 고객 업무에 맞춰 협의합니다.</p>"
+        "title": "AI 안전성 검증 & 운영 개선",
+        "body": "<p>정해진 권한 안에서 의도한 작업을 수행하는지 검증하고, 도입 후 필요한 운영 개선을 지원합니다.</p><ul><li>누락, 근거 없는 내용과 모순 점검</li><li>도구 호출과 권한 초과 가능성 확인</li><li>민감한 자료의 접근·전송 범위 검토</li><li>승인 없는 실행 차단과 처리 기록 점검</li><li>합의된 범위의 오류 대응, 사용 현황 점검과 기능 개선</li></ul><p>산출물: 검증 결과, 개선 제안과 운영 안내. 운영 지원의 범위와 기간은 프로젝트에 맞춰 협의합니다.</p>"
       }
     },
     "scenarios": {
@@ -215,18 +217,18 @@ window.HarangLocales = {
     "services": {
       "discover": {
         "label": "01 / DISCOVER",
-        "title": "Workflow assessment & AI strategy",
-        "body": "<p>Find work worth improving before choosing the technology.</p><ul><li>Interview your team about repetitive tasks and bottlenecks</li><li>Review inputs, deliverables, existing tools, and access permissions</li><li>Prioritize suitable use cases and assess their risks</li><li>Separate AI-supported tasks from human decisions</li></ul><p>Deliverables: a workflow assessment, implementation priorities, and a proposed pilot scope.</p>"
+        "title": "AI consulting & workflow assessment",
+        "body": "<p>Understand the work and define an AI strategy that leads to implementation.</p><ul><li>Interview your team about repetitive tasks and bottlenecks</li><li>Analyze data, existing tools, permissions, and requirements</li><li>Prioritize use cases, features, and risks</li><li>Separate AI-supported tasks from human decisions</li></ul><p>Deliverables: a workflow assessment, AI strategy, implementation scope, and execution plan.</p>"
       },
       "build": {
         "label": "02 / BUILD",
-        "title": "AI workflow design & implementation",
-        "body": "<p>Design a working pilot around one clearly defined task.</p><ul><li>Structure requirements from briefs, emails, and documents</li><li>Create drafts in an agreed format</li><li>Evaluate integrations and execution permissions</li><li>Build in review and approval by your team</li></ul><p>Deliverables: a scoped prototype, test results, and user guidance. Actual integrations are confirmed after assessment.</p>"
+        "title": "AI solution development & implementation",
+        "body": "<p>Validate feasibility with a pilot, then directly develop and implement a working solution within an agreed scope.</p><ul><li>Develop AI agents and automation workflows</li><li>Implement document understanding, requirement extraction, and draft generation</li><li>Build custom internal tools and integrations with existing systems and APIs</li><li>Implement human review, approval, and action records</li><li>Test, configure deployment, and provide user and operational guidance</li></ul><p>Deliverables: a scoped working solution, test results, and user and operational guidance. Development, integrations, and deployment scope are confirmed after assessment.</p>"
       },
       "validate": {
         "label": "03 / VALIDATE",
-        "title": "AI safety evaluation & improvement",
-        "body": "<p>Evaluate whether AI carries out intended tasks within agreed boundaries.</p><ul><li>Check omissions, unsupported claims, and contradictions</li><li>Review tool calls and excessive-permission risks</li><li>Assess access to and transfer of sensitive information</li><li>Design approval controls and action logs</li></ul><p>Deliverables: test findings, identified risks, and improvement recommendations. Evaluation scope and criteria are agreed for your workflow.</p>"
+        "title": "AI safety evaluation & operational improvement",
+        "body": "<p>Evaluate intended actions within agreed permissions, then support the operational improvements your project needs.</p><ul><li>Check omissions, unsupported claims, and contradictions</li><li>Review tool calls and excessive-permission risks</li><li>Assess sensitive-data access and transfers</li><li>Evaluate approval controls and action records</li><li>Provide scoped troubleshooting, usage reviews, and feature improvements</li></ul><p>Deliverables: evaluation findings, improvement recommendations, and operational guidance. Support scope and duration are agreed for each project.</p>"
       }
     },
     "scenarios": {
@@ -316,9 +318,9 @@ window.HarangLocales = {
       "copyFailed": "contact@harang.xyz — please copy the address manually.",
       "emailSubject": "[HARANG project inquiry]",
       "pageTitle": "HARANG | Practical AI Transformation, Built on Trust",
-      "pageDescription": "HARANG helps businesses turn repetitive document and operational tasks into practical AI workflows with human oversight. Assessment, pilot implementation, and safety evaluation.",
+      "pageDescription": "HARANG is an AI consulting and development partner for workflow assessment, custom solutions, system integrations, safety evaluation, and operational improvement.",
       "ogTitle": "HARANG — Practical AI Transformation, Built on Trust",
-      "ogDescription": "Less busywork. More room for human judgment. Explore practical AI workflows built around your business."
+      "ogDescription": "Less busywork. More room for human judgment. AI consulting, hands-on solution development, implementation, and operational improvement."
     },
     "static": {
       "skip": "Skip to content",
@@ -328,7 +330,7 @@ window.HarangLocales = {
       "nav.about": "About",
       "nav.contact": "Let’s talk <span aria-hidden=\"true\">↗</span>",
       "hero.title": "Less busywork.<br>More room for<br><span>human judgment.</span>",
-      "hero.intro": "Turn AI potential into a better way of working.<br>HARANG designs practical workflows for your business<br class=\"desktop-break\"> with people in control of every important decision.",
+      "hero.intro": "Find the opportunity. Build the solution.<br>HARANG connects AI consulting with hands-on design,<br class=\"desktop-break\"> development, and implementation—with people in control.",
       "hero.contact": "Find your starting point <span aria-hidden=\"true\">↗</span>",
       "hero.workflow": "Explore workflows <span aria-hidden=\"true\">↓</span>",
       "hero.scroll": "Discover a better way to work <span aria-hidden=\"true\">↓</span>",
@@ -336,20 +338,20 @@ window.HarangLocales = {
       "principles.workflows": "Connected workflows",
       "principles.people": "People in control",
       "principles.trust": "Change built on trust",
-      "services.title": "From AI potential<br>to practical change.",
-      "services.intro": "Understand the work before choosing the technology.<br>Solve one meaningful problem,<br>then connect what works to the next workflow.",
-      "services.discover.title": "Workflow assessment",
-      "services.discover.body": "Find repetitive tasks and bottlenecks. Define what AI can support and where human judgment matters.",
+      "services.title": "From strategy<br>to working solutions.",
+      "services.intro": "Workflow assessment and AI strategy.<br>Custom development and system integrations.<br>Safety evaluation and operational improvement.",
+      "services.discover.title": "AI consulting & assessment",
+      "services.discover.body": "Understand your workflow and requirements. Define an AI strategy, implementation scope, and the decisions that stay with your team.",
       "services.discover.tag1": "Process analysis",
       "services.discover.tag2": "AI roadmap",
-      "services.build.title": "AI workflow design",
-      "services.build.body": "Connect document understanding, draft creation, and your tools in a pilot built around one real task.",
-      "services.build.tag1": "Document workflows",
-      "services.build.tag2": "AI agents",
-      "services.validate.title": "AI safety evaluation",
-      "services.validate.body": "Evaluate unintended actions, excessive permissions, and data exposure. Design clear approval and audit steps.",
+      "services.build.title": "AI solution development",
+      "services.build.body": "We directly develop AI agents, document workflows, internal tools, and system integrations—from pilot validation to practical implementation.",
+      "services.build.tag1": "Custom development",
+      "services.build.tag2": "System integration",
+      "services.validate.title": "AI safety & operations",
+      "services.validate.body": "Evaluate permissions and action safety, then support troubleshooting and improvement after implementation. Keep approvals and records for important actions.",
       "services.validate.tag1": "Access control",
-      "services.validate.tag2": "Action validation",
+      "services.validate.tag2": "Operational support",
       "services.details": "Explore this service <span aria-hidden=\"true\">↗</span>",
       "workflow.title": "One request.<br>A connected workflow.",
       "workflow.intro": "Let AI handle repetitive preparation.<br>Keep review and decisions with your team.<br>That’s how HARANG approaches automation.",
@@ -385,23 +387,23 @@ window.HarangLocales = {
       "approach.listen.body": "Explore your team’s workflow and the problems that keep coming back.",
       "approach.listen.note": "Interviews · Workflow analysis",
       "approach.define.title": "Define the scope.",
-      "approach.define.body": "Agree on the task, deliverables, data boundaries, and acceptance criteria.",
+      "approach.define.body": "Agree on the features, deliverables, data and integration boundaries, and acceptance criteria.",
       "approach.define.note": "Priorities · Implementation plan",
       "approach.build.title": "Build & evaluate.",
-      "approach.build.body": "Create a working pilot and assess usability, output quality, and safety.",
-      "approach.build.note": "Prototype · Testing",
+      "approach.build.body": "Validate with a pilot, directly develop and implement the agreed features, and evaluate usability and safety.",
+      "approach.build.note": "Development · Implementation · Testing",
       "approach.improve.title": "Learn & improve.",
-      "approach.improve.body": "Review time spent, revisions, and errors to decide what to improve next.",
-      "approach.improve.note": "Measurement · Operational review",
+      "approach.improve.body": "Review usage and errors after implementation, then agree on the operational support and improvements needed.",
+      "approach.improve.note": "Operational support · Improvement",
       "about.title": "Between technology<br>and work, there’s you.",
-      "about.lead": "HARANG is an AI transformation consultancy<br>focused on turning repetitive document and operational tasks<br>into practical, trustworthy workflows.",
-      "about.body": "With a background in computer science and information security research, we focus on how AI agents can use tools in line with user intent. Our aim goes beyond adoption: workflows that people can understand, oversee, and control.",
+      "about.lead": "HARANG is an AI consulting and development partner.<br>We help define your AI strategy and directly build<br>practical workflows and custom business tools.",
+      "about.body": "With a background in computer science and information security research, we connect workflow assessment with hands-on design, development, and implementation. We build around intended tool use, clear permissions, and human approval, with operational improvements tailored to the project.",
       "about.stage": "<span class=\"status-dot\"></span> Early-stage venture · Workflow prototypes in planning",
       "faq.title": "Before we begin,<br>a few answers.",
       "faq.q1": "Which task should we start with? <span aria-hidden=\"true\">+</span>",
       "faq.a1": "Start with a repetitive task that has clear inputs and outputs, such as organizing briefs, drafting proposals, or summarizing meetings. We consider frequency, time spent, and data sensitivity to identify a suitable pilot.",
       "faq.q2": "Can we keep using our existing tools? <span aria-hidden=\"true\">+</span>",
-      "faq.a2": "We start with your current tools and workflow. Integration depends on available APIs and permissions. An initial assessment identifies feasible connections and any changes needed.",
+      "faq.a2": "We review your current tools and workflow, then design and develop integrations around available APIs and permissions. The initial assessment identifies feasible connections and changes before we agree on implementation scope.",
       "faq.q3": "Do we need to share all our company data? <span aria-hidden=\"true\">+</span>",
       "faq.a3": "No. We define the necessary information and access boundaries first, and begin evaluation with synthetic or explicitly authorized data. External AI transfers and retention terms are agreed before implementation.",
       "faq.q4": "How are cost and timing determined? <span aria-hidden=\"true\">+</span>",
@@ -420,7 +422,9 @@ window.HarangLocales = {
       "contact.guide.title": "A few details that help us get started.",
       "contact.guide.team": "A short introduction to your company or team",
       "contact.guide.workflow": "The repetitive task and tools you use today",
-      "contact.guide.goal": "The change you want or a timeline you’re considering"
+      "contact.guide.goal": "The change you want or a timeline you’re considering",
+      "faq.q5": "Can you also develop and implement the solution?<span aria-hidden=\"true\">+</span>",
+      "faq.a5": "Yes. Alongside AI strategy and workflow assessment, we directly design, develop, and implement AI agents, document workflows, internal business tools, and integrations with existing systems. We validate with a pilot, then agree on production features, deployment, and any operational support."
     }
   }
 };
